@@ -1,0 +1,710 @@
+{
+  "app": {
+    "name": "Hane",
+    "tagline": "Household management app"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search...",
+    "noData": "No data yet",
+    "comingSoon": "Coming soon",
+    "optional": "optional"
+  },
+  "auth": {
+    "login": "Sign In",
+    "logout": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "emailPlaceholder": "example@email.com",
+    "passwordPlaceholder": "Enter your password",
+    "loginError": "Login failed. Please check your credentials.",
+    "loginErrorWhitelist": "This account is not authorized.",
+    "loggingIn": "Signing in..."
+  },
+  "pin": {
+    "title": "Enter PIN",
+    "subtitle": "Enter your 6-digit security code",
+    "setup": "Set Up PIN",
+    "setupSubtitle": "Choose a 6-digit security code",
+    "confirm": "Confirm PIN",
+    "confirmSubtitle": "Re-enter your security code",
+    "mismatch": "PINs don't match. Try again.",
+    "wrong": "Wrong PIN",
+    "locked": "Too many failed attempts. Wait {{minutes}} minutes.",
+    "attemptsLeft": "{{count}} attempts remaining",
+    "rememberDevice": "Remember this device for 7 days",
+    "success": "PIN verified",
+    "setSuccess": "PIN set successfully"
+  },
+  "nav": {
+    "home": "Home",
+    "tasks": "Tasks",
+    "finance": "Finance",
+    "calories": "Nutrition",
+    "more": "More"
+  },
+  "more": {
+    "title": "More",
+    "inventory": "Inventory",
+    "shopping": "Shopping",
+    "incidents": "Incidents",
+    "calendar": "Calendar",
+    "body": "Body Tracking",
+    "smoking": "Quit Smoking",
+    "goals": "Goals",
+    "settings": "Settings"
+  },
+  "home": {
+    "greeting": "Hello, {{name}}!",
+    "summary": "Today's Summary",
+    "pendingTasks": "Pending tasks",
+    "noPendingTasks": "All tasks done! 🎉",
+    "tapToOpen": "Open →",
+    "todayTasks": "Today's tasks",
+    "completedWeek": "{{count}} completed this week",
+    "budget": "Remaining budget",
+    "thisMonth": "This month",
+    "noData": "No data",
+    "upcomingEvents": "Upcoming",
+    "next7Days": "Next 7 days",
+    "shoppingRemaining": "Shopping",
+    "itemsToBuy": "items to buy",
+    "quickAccess": "Quick access"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageTr": "Türkçe",
+    "languageEn": "English",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "account": "Account",
+    "changePin": "Change PIN",
+    "version": "Version",
+    "switchToEn": "Switch to English",
+    "switchToTr": "Türkçe'ye geç"
+  },
+  "modules": {
+    "chores": "Household Chores",
+    "personalTasks": "Personal Tasks",
+    "inventory": "Inventory",
+    "shopping": "Shopping List",
+    "incidents": "Incidents",
+    "finance": "Finance",
+    "caloriesModule": "Calories & Macros",
+    "calendarModule": "Calendar",
+    "body": "Body & Weight",
+    "smoking": "Quit Smoking",
+    "goals": "Dreams & Goals"
+  },
+  "tasks": {
+    "myTasks": "My Tasks",
+    "household": "Household",
+    "personal": "Personal"
+  },
+  "empty": {
+    "title": "Nothing here yet",
+    "description": "This module will be active soon.",
+    "comingSoon": "Coming Soon",
+    "comingSoonDesc": "This feature is coming in the next sprint."
+  },
+  "chores": {
+    "householdBadge": "Household chore",
+    "frequency": {
+      "once": "One-time",
+      "hourly": "Hourly",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "custom_days": "Custom"
+    },
+    "filter": {
+      "all": "All",
+      "unassigned": "Unassigned",
+      "mine": "Mine",
+      "partner": "Partner's",
+      "today": "Today",
+      "upcoming": "Upcoming"
+    },
+    "action": {
+      "complete": "Complete",
+      "reassignOnce": "Reassign this time",
+      "reassignOnceDesc": "Only this instance will be reassigned, future recurrences are not affected.",
+      "reassignPermanent": "Change permanent assignment",
+      "reassignPermanentDesc": "All future recurrences will be assigned to the new person.",
+      "skip": "Skip",
+      "skipConfirm": "Skip",
+      "claim": "Claim",
+      "delete": "Delete Chore",
+      "deleteDesc": "This chore and all future recurrences will be permanently removed.",
+      "deleteConfirm": "Are you sure you want to delete?",
+      "edit": "Edit Chore",
+      "editDesc": "Change title, deadline or assignment.",
+      "deleteInstance": "Delete This Occurrence",
+      "deleteInstanceDesc": "Only this occurrence is removed. The chore will keep recurring."
+    },
+    "actionsSheetDesc": "What would you like to do with this task?",
+    "skipNotePlaceholder": "Reason for skipping (optional)",
+    "reassign": {
+      "you": "(You)",
+      "warningPermanent": "This only affects tasks generated from now on. Currently pending tasks will not change."
+    },
+    "unassigned": "Unassigned",
+    "form": {
+      "title": "New Household Chore",
+      "description": "Add a recurring or one-time chore.",
+      "editTitle": "Edit Chore",
+      "editDescription": "Update title, deadline or assignment.",
+      "frequencyLocked": "Frequency cannot be changed after creation.",
+      "addButton": "Add Chore",
+      "submit": "Create"
+    },
+    "field": {
+      "title": "Title",
+      "titlePlaceholder": "E.g.: Take out trash",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional details...",
+      "frequency": "Frequency",
+      "everyNHours": "Every N hours",
+      "everyNDays": "Every N days",
+      "deadlineHours": "Deadline (hours)",
+      "deadlineHoursHint": "How many hours after creation should this be completed.",
+      "assignedTo": "Assign to",
+      "startDate": "Start date",
+      "startDateHint": "Recurrence starts from this day. E.g.: pick Friday for weekly Friday tasks."
+    },
+    "completionRate": {
+      "label": "This week"
+    },
+    "empty": {
+      "myTasks": "No tasks for today 🎉",
+      "myTasksDesc": "Great! All your tasks seem to be completed.",
+      "household": "No household chores yet",
+      "householdDesc": "Start by adding your first chore."
+    },
+    "toast": {
+      "completed": "Task completed ✓",
+      "skipped": "Task skipped",
+      "claimed": "Task claimed",
+      "reassigned": "Assignment updated",
+      "created": "Chore created",
+      "deleted": "Chore deleted",
+      "updated": "Chore updated",
+      "instanceDeleted": "This occurrence deleted"
+    }
+  },
+  "personalTasks": {
+    "badge": "Personal task",
+    "priority": {
+      "low": "Low",
+      "med": "Medium",
+      "high": "High"
+    },
+    "recurrence": {
+      "none": "One-time",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly"
+    },
+    "filter": {
+      "open": "Open",
+      "completed": "Completed",
+      "all": "All"
+    },
+    "form": {
+      "title": "New Personal Task",
+      "description": "Only you can see this.",
+      "addButton": "Add Task",
+      "submit": "Create"
+    },
+    "field": {
+      "title": "Title",
+      "titlePlaceholder": "E.g.: Finish report",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional details...",
+      "dueAt": "Due date",
+      "priority": "Priority",
+      "tags": "Tags",
+      "tagPlaceholder": "Add tag...",
+      "recurrence": "Recurrence",
+      "recurrenceHint": "A new task will be auto-created when this one is completed."
+    },
+    "empty": {
+      "title": "No personal tasks",
+      "description": "Add tasks that only you can see."
+    },
+    "toast": {
+      "created": "Task created",
+      "completed": "Task completed ✓",
+      "deleted": "Task deleted"
+    }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "form": {
+      "title": "Add New Item",
+      "editTitle": "Edit Item",
+      "description": "Add a new item to your inventory.",
+      "editDescription": "Update item details.",
+      "addButton": "Add Item"
+    },
+    "field": {
+      "name": "Item Name",
+      "namePlaceholder": "E.g.: Milk",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "category": "Category",
+      "lowThreshold": "Low stock alert",
+      "lowThresholdHint": "You'll be alerted when stock drops below this",
+      "note": "Note",
+      "notePlaceholder": "Optional note..."
+    },
+    "units": {
+      "adet": "Piece",
+      "kg": "kg",
+      "g": "g",
+      "lt": "lt",
+      "ml": "ml",
+      "paket": "Pack",
+      "kutu": "Box",
+      "şişe": "Bottle"
+    },
+    "categories": {
+      "mutfak": "Kitchen",
+      "banyo": "Bathroom",
+      "temizlik": "Cleaning",
+      "kırtasiye": "Stationery",
+      "genel": "General"
+    },
+    "lowStockBanner": "{{count}} items low on stock",
+    "empty": {
+      "title": "No items in stock",
+      "description": "Start tracking your inventory by adding your first item."
+    },
+    "toast": {
+      "created": "Item added",
+      "updated": "Item updated",
+      "deleted": "Item deleted",
+      "addedToShopping": "Added to shopping list"
+    }
+  },
+  "shopping": {
+    "title": "Shopping List",
+    "form": {
+      "title": "Add Item",
+      "description": "Add a new item to your shopping list.",
+      "addButton": "Add to List"
+    },
+    "field": {
+      "name": "Item Name",
+      "namePlaceholder": "E.g.: Bread",
+      "quantity": "Quantity",
+      "unit": "Unit",
+      "category": "Category"
+    },
+    "categories": {
+      "gıda": "Groceries",
+      "temizlik": "Cleaning",
+      "kişisel bakım": "Personal Care",
+      "ev": "Home",
+      "genel": "General"
+    },
+    "frequentItems": "Frequently added items",
+    "purchasedCount": "{{count}} items purchased",
+    "archiveButton": "Clear list",
+    "empty": {
+      "title": "Shopping list is empty",
+      "description": "Add items you need to buy."
+    },
+    "toast": {
+      "added": "Item added",
+      "deleted": "Item deleted",
+      "archived": "{{count}} items archived"
+    }
+  },
+  "incidents": {
+    "title": "Incidents",
+    "form": {
+      "title": "New Incident",
+      "description": "Report an issue or complaint.",
+      "submit": "Create Incident",
+      "uploading": "Uploading..."
+    },
+    "field": {
+      "title": "Title",
+      "titlePlaceholder": "E.g.: Clogged sink",
+      "description": "Description",
+      "descriptionPlaceholder": "Write details...",
+      "category": "Category",
+      "severity": "Severity",
+      "photo": "Photo",
+      "photoHint": "Take a photo or choose from gallery"
+    },
+    "categories": {
+      "mutfak": "Kitchen",
+      "banyo": "Bathroom",
+      "salon": "Living Room",
+      "yatak": "Bedroom",
+      "genel": "General",
+      "diger": "Other"
+    },
+    "severity": {
+      "info": "Info",
+      "warn": "Warning",
+      "crit": "Critical"
+    },
+    "tab": {
+      "active": "Active",
+      "resolved": "Resolved"
+    },
+    "action": {
+      "resolve": "Resolved"
+    },
+    "detail": {
+      "reportedBy": "Reported by",
+      "reportedAt": "Report date",
+      "resolvedBy": "Resolved by",
+      "resolvedAt": "Resolution date"
+    },
+    "photoUnavailable": "Photo unavailable",
+    "error": {
+      "fileTooLarge": "File too large (max 5MB)"
+    },
+    "empty": {
+      "activeTitle": "No active incidents",
+      "activeDescription": "Great! No issues reported.",
+      "resolvedTitle": "No resolved incidents",
+      "resolvedDescription": "No resolved incidents yet."
+    },
+    "toast": {
+      "created": "Incident created",
+      "resolved": "Incident resolved ✓"
+    }
+  },
+  "finance": {
+    "title": "Finance",
+    "monthlySummary": "Monthly Summary",
+    "totalIncome": "Total Income",
+    "totalFixed": "Fixed Expenses",
+    "remainingBudget": "Remaining Budget",
+    "bufferLabel": "Buffer",
+    "allocated": "Spending",
+    "unallocated": "Free Budget",
+    "categories": "Categories",
+    "recentExpenses": "Recent Expenses",
+    "personal": "Personal",
+    "dayOfMonth": "Every {{day}}th of the month",
+    "frequency": {
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "onetime": "One-time"
+    },
+    "scope": {
+      "shared": "Shared",
+      "personal": "Personal"
+    },
+    "field": {
+      "name": "Name",
+      "amount": "Amount (€)",
+      "category": "Category",
+      "note": "Note",
+      "notePlaceholder": "Optional note...",
+      "date": "Date",
+      "frequency": "Frequency",
+      "scope": "Scope",
+      "dayOfMonth": "Day of month (1-31)",
+      "color": "Color",
+      "incomePlaceholder": "E.g.: Salary",
+      "fixedPlaceholder": "E.g.: Rent",
+      "categoryPlaceholder": "E.g.: Groceries"
+    },
+    "expense": {
+      "title": "Add Expense",
+      "description": "Record a spending.",
+      "submit": "Add Expense",
+      "noCategoriesHint": "Add categories in settings first.",
+      "other": "Other"
+    },
+    "settings": {
+      "title": "Finance Settings",
+      "description": "Manage income, expenses and buffer.",
+      "income": "Income Sources",
+      "incomeDesc": "Salary, freelance",
+      "fixed": "Fixed Expenses",
+      "fixedDesc": "Rent, bills",
+      "buffer": "Buffer Target",
+      "bufferDesc": "Emergency fund",
+      "noIncome": "No income sources yet.",
+      "noFixed": "No fixed expenses yet.",
+      "noCategories": "No categories yet. Create spending groups with the Add button.",
+      "categoriesDesc": "Spending groups"
+    },
+    "category": {
+      "title": "Expense Categories",
+      "description": "Set monthly limits and colors.",
+      "add": "Add Category",
+      "limitLabel": "Monthly Limit"
+    },
+    "bufferField": {
+      "target": "Target Amount (€)",
+      "current": "Current Amount (€)"
+    },
+    "empty": {
+      "title": "No expenses yet",
+      "description": "Start by adding your first expense."
+    },
+    "toast": {
+      "expenseAdded": "Expense added",
+      "expenseDeleted": "Expense deleted",
+      "incomeAdded": "Income source added",
+      "incomeUpdated": "Income source updated",
+      "incomeDeleted": "Income source deleted",
+      "fixedAdded": "Fixed expense added",
+      "fixedUpdated": "Fixed expense updated",
+      "fixedDeleted": "Fixed expense deleted",
+      "bufferUpdated": "Buffer updated",
+      "categoryAdded": "Category added",
+      "categoryUpdated": "Category updated",
+      "categoryDeleted": "Category deleted"
+    }
+  },
+  "calories": {
+    "title": "Nutrition",
+    "tab": {
+      "today": "Today",
+      "tomorrow": "Plan Tomorrow"
+    },
+    "macro": {
+      "calories": "Calories",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat"
+    },
+    "mealType": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snack": "Snack"
+    },
+    "noTarget": "No daily target set.",
+    "setTarget": "Set Target",
+    "copyYesterday": "Copy Yesterday",
+    "form": {
+      "title": "Add Meal",
+      "description": "Add food to your plan.",
+      "submit": "Add"
+    },
+    "field": {
+      "mealType": "Meal",
+      "foodName": "Food Name",
+      "foodNamePlaceholder": "E.g.: Eggs",
+      "amountG": "Amount (g)",
+      "amountGPlaceholder": "Optional"
+    },
+    "target": {
+      "title": "Daily Targets",
+      "description": "Set your calorie and macro targets."
+    },
+    "empty": {
+      "title": "No meals yet",
+      "description": "Start by adding your first meal."
+    },
+    "toast": {
+      "added": "Meal added",
+      "deleted": "Meal deleted",
+      "copied": "Yesterday's plan copied",
+      "targetSaved": "Targets saved"
+    }
+  },
+  "calendar": {
+    "title": "Calendar",
+    "weekday": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    },
+    "filter": {
+      "all": "All",
+      "shared": "Shared",
+      "personal": "Personal"
+    },
+    "allDay": "All day",
+    "form": {
+      "title": "New Event",
+      "description": "Add an event to your calendar.",
+      "editTitle": "Edit Event",
+      "editDescription": "Update event details.",
+      "submit": "Add Event"
+    },
+    "field": {
+      "title": "Title",
+      "titlePlaceholder": "E.g.: Doctor appointment",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional details...",
+      "startAt": "Start",
+      "endAt": "End",
+      "allDay": "All day",
+      "location": "Location",
+      "locationPlaceholder": "E.g.: Hospital",
+      "scope": "Scope",
+      "color": "Color"
+    },
+    "empty": {
+      "title": "No events this month",
+      "description": "Start by adding your first event."
+    },
+    "toast": {
+      "created": "Event created",
+      "updated": "Event updated",
+      "deleted": "Event deleted"
+    }
+  },
+  "body": {
+    "title": "Body & Weight",
+    "latestMeasurement": "Latest measurement",
+    "trendChart": "Trend",
+    "history": "History",
+    "range": {
+      "30": "30 days",
+      "90": "90 days",
+      "180": "6 months",
+      "365": "1 year"
+    },
+    "field": {
+      "date": "Date",
+      "weight": "Weight",
+      "bodyFat": "Body fat",
+      "waist": "Waist",
+      "chest": "Chest",
+      "arm": "Arm",
+      "hip": "Hip",
+      "note": "Note",
+      "notePlaceholder": "Optional note..."
+    },
+    "form": {
+      "title": "New Measurement",
+      "description": "Record your body measurements.",
+      "submit": "Save Measurement"
+    },
+    "empty": {
+      "title": "No measurements yet",
+      "description": "Start tracking by adding your first measurement."
+    },
+    "toast": {
+      "added": "Measurement saved",
+      "deleted": "Measurement deleted"
+    }
+  },
+  "smoking": {
+    "title": "Quit Smoking",
+    "smokeFree": "Smoke-free life",
+    "savings": "Savings",
+    "milestones": "Milestones",
+    "ownerOnly": "This module is private",
+    "ownerOnlyDesc": "Quit smoking tracking can only be viewed by the account owner.",
+    "unit": {
+      "days": "days",
+      "hours": "hrs",
+      "min": "min",
+      "sec": "sec"
+    },
+    "setup": {
+      "title": "Let's start",
+      "description": "Enter your quit date and smoking habits.",
+      "submit": "Save & Start"
+    },
+    "field": {
+      "quitDate": "Quit date",
+      "cigsPerDay": "How many cigarettes per day?",
+      "packPrice": "Pack price (\u20ac)",
+      "packSize": "Cigarettes per pack"
+    },
+    "milestone": {
+      "24h": "24 Hours",
+      "24hDesc": "CO levels normalize",
+      "72h": "72 Hours",
+      "72hDesc": "Nicotine leaves the body",
+      "7d": "1 Week",
+      "7dDesc": "Lungs begin to clean",
+      "30d": "1 Month",
+      "30dDesc": "Circulation improves",
+      "90d": "3 Months",
+      "90dDesc": "Lung capacity increases",
+      "180d": "6 Months",
+      "180dDesc": "Coughing and shortness of breath decrease",
+      "365d": "1 Year",
+      "365dDesc": "Heart disease risk halved"
+    },
+    "relapseButton": "I smoked again",
+    "relapseConfirm": "Are you sure? Tap again.",
+    "relapseHint": "The counter will reset but your progress is not lost.",
+    "toast": {
+      "setupSaved": "Settings saved",
+      "relapseRecorded": "Recorded. Don't give up, start again!",
+      "milestoneAchieved": "You reached {{milestone}}! \ud83c\udf89"
+    }
+  },
+  "goals": {
+    "title": "Dreams & Goals",
+    "status": {
+      "all": "All",
+      "dreaming": "Dreaming",
+      "planned": "Planned",
+      "in_progress": "Active",
+      "achieved": "Achieved",
+      "paused": "Paused"
+    },
+    "milestones": "Steps",
+    "milestoneAdd": "Add new step...",
+    "achieveButton": "We did it! \u2705",
+    "achieved": "This goal has been achieved! \ud83c\udfc6",
+    "form": {
+      "title": "New Goal",
+      "description": "Add a dream or goal.",
+      "submit": "Create Goal"
+    },
+    "field": {
+      "title": "Title",
+      "titlePlaceholder": "E.g.: Europe trip",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe your dream...",
+      "category": "Category",
+      "categoryPlaceholder": "E.g.: Travel, Health, Career",
+      "status": "Status",
+      "targetDate": "Target date",
+      "scope": "Scope",
+      "image": "Image",
+      "imageHint": "Upload or take a photo"
+    },
+    "empty": {
+      "title": "No goals yet",
+      "description": "Start by adding your dreams and goals."
+    },
+    "toast": {
+      "created": "Goal created",
+      "updated": "Goal updated",
+      "achieved": "Congratulations! Goal achieved! \ud83c\udf89"
+    }
+  }
+}
+

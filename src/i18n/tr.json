@@ -1,0 +1,710 @@
+{
+  "app": {
+    "name": "Hane",
+    "tagline": "Hane yönetim uygulaması"
+  },
+  "common": {
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "retry": "Tekrar dene",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "close": "Kapat",
+    "confirm": "Onayla",
+    "back": "Geri",
+    "next": "İleri",
+    "done": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "search": "Ara...",
+    "noData": "Henüz veri yok",
+    "comingSoon": "Yapım aşamasında",
+    "optional": "opsiyonel"
+  },
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "email": "E-posta",
+    "password": "Şifre",
+    "emailPlaceholder": "ornek@email.com",
+    "passwordPlaceholder": "Şifrenizi girin",
+    "loginError": "Giriş başarısız. Lütfen bilgilerinizi kontrol edin.",
+    "loginErrorWhitelist": "Bu hesap yetkili değil.",
+    "loggingIn": "Giriş yapılıyor..."
+  },
+  "pin": {
+    "title": "PIN Girin",
+    "subtitle": "6 haneli güvenlik kodunuzu girin",
+    "setup": "PIN Belirleyin",
+    "setupSubtitle": "6 haneli bir güvenlik kodu belirleyin",
+    "confirm": "PIN'i Onaylayın",
+    "confirmSubtitle": "Güvenlik kodunuzu tekrar girin",
+    "mismatch": "PIN'ler eşleşmiyor. Tekrar deneyin.",
+    "wrong": "Yanlış PIN",
+    "locked": "Çok fazla yanlış deneme. {{minutes}} dakika bekleyin.",
+    "attemptsLeft": "{{count}} deneme hakkınız kaldı",
+    "rememberDevice": "Bu cihazda 7 gün hatırla",
+    "success": "PIN doğrulandı",
+    "setSuccess": "PIN başarıyla ayarlandı"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "tasks": "Görevler",
+    "finance": "Para",
+    "calories": "Beslenme",
+    "more": "Daha Fazla"
+  },
+  "more": {
+    "title": "Daha Fazla",
+    "inventory": "Stok",
+    "shopping": "Alışveriş",
+    "incidents": "Şikayetler",
+    "calendar": "Takvim",
+    "body": "Kilo Takip",
+    "smoking": "Sigara Bırakma",
+    "goals": "Hedefler",
+    "settings": "Ayarlar"
+  },
+  "home": {
+    "greeting": "Merhaba, {{name}}!",
+    "summary": "Bugünün Özeti",
+    "pendingTasks": "Bekleyen görev",
+    "noPendingTasks": "Tüm görevler tamam! 🎉",
+    "tapToOpen": "Aç →",
+    "todayTasks": "Bugünkü görevler",
+    "completedWeek": "Bu hafta {{count}} tamamlandı",
+    "budget": "Kalan bütçe",
+    "thisMonth": "Bu ay",
+    "noData": "Veri yok",
+    "upcomingEvents": "Yaklaşan",
+    "next7Days": "7 gün içinde",
+    "shoppingRemaining": "Alışveriş",
+    "itemsToBuy": "ürün alınacak",
+    "quickAccess": "Hızlı erişim"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "language": "Dil",
+    "languageTr": "Türkçe",
+    "languageEn": "English",
+    "theme": "Tema",
+    "themeLight": "Açık",
+    "themeDark": "Koyu",
+    "themeSystem": "Sistem",
+    "account": "Hesap",
+    "changePin": "PIN Değiştir",
+    "version": "Versiyon",
+    "switchToEn": "Switch to English",
+    "switchToTr": "Türkçe'ye geç"
+  },
+  "modules": {
+    "chores": "Hane Görevleri",
+    "personalTasks": "Kişisel Görevler",
+    "inventory": "Stok Yönetimi",
+    "shopping": "Alışveriş Listesi",
+    "incidents": "Şikayetler",
+    "finance": "Finans",
+    "caloriesModule": "Kalori & Makro",
+    "calendarModule": "Takvim",
+    "body": "Kilo & Vücut",
+    "smoking": "Sigara Bırakma",
+    "goals": "Hayaller & Hedefler"
+  },
+  "tasks": {
+    "myTasks": "Görevlerim",
+    "household": "Hane",
+    "personal": "Kişisel"
+  },
+  "empty": {
+    "title": "Henüz bir şey yok",
+    "description": "Bu modül yakında aktif olacak.",
+    "comingSoon": "Yapım aşamasında",
+    "comingSoonDesc": "Bu özellik bir sonraki sprint'te gelecek."
+  },
+  "chores": {
+    "householdBadge": "Hane görevi",
+    "frequency": {
+      "once": "Tek seferlik",
+      "hourly": "Saatlik",
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık",
+      "custom_days": "Özel"
+    },
+    "filter": {
+      "all": "Tümü",
+      "unassigned": "Atanmamış",
+      "mine": "Bana",
+      "partner": "Eşime",
+      "today": "Bugün",
+      "upcoming": "Yaklaşan"
+    },
+    "action": {
+      "complete": "Tamamla",
+      "reassignOnce": "Bu seferliğine devret",
+      "reassignOnceDesc": "Sadece bu görevi devreder, gelecek tekrarlar etkilenmez.",
+      "reassignPermanent": "Kalıcı atamayı değiştir",
+      "reassignPermanentDesc": "Bundan sonra üretilecek tüm tekrarlar yeni kişiye atanır.",
+      "skip": "Atla",
+      "skipConfirm": "Atla",
+      "claim": "Üstüme al",
+      "delete": "Görevi Sil",
+      "deleteDesc": "Bu görev ve gelecek tekrarları kalıcı olarak kaldırılır.",
+      "deleteConfirm": "Silmek istediğinize emin misiniz?",
+      "edit": "Görevi Düzenle",
+      "editDesc": "Başlık, süre veya atamayı değiştir.",
+      "deleteInstance": "Bu Seferliği Sil",
+      "deleteInstanceDesc": "Sadece bu sefer silinir, görev tekrar etmeye devam eder."
+    },
+    "actionsSheetDesc": "Bu görev için ne yapmak istersiniz?",
+    "skipNotePlaceholder": "Atlama sebebi (opsiyonel)",
+    "reassign": {
+      "you": "(Sen)",
+      "warningPermanent": "Bu sadece bugünden sonra üretilen görevleri etkiler. Şu an bekleyen görevler değişmez."
+    },
+    "unassigned": "Atanmamış",
+    "form": {
+      "title": "Yeni Hane Görevi",
+      "description": "Tekrarlayan veya tek seferlik bir görev ekleyin.",
+      "editTitle": "Görevi Düzenle",
+      "editDescription": "Başlık, süre veya atamayı güncelleyin.",
+      "frequencyLocked": "Sıklık oluşturulduktan sonra değiştirilemez.",
+      "addButton": "Görev Ekle",
+      "submit": "Oluştur"
+    },
+    "field": {
+      "title": "Başlık",
+      "titlePlaceholder": "Örn: Çöp at",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Opsiyonel detaylar...",
+      "frequency": "Sıklık",
+      "everyNHours": "Her kaç saat?",
+      "everyNDays": "Her kaç gün?",
+      "deadlineHours": "Süre (saat)",
+      "deadlineHoursHint": "Görev üretildikten sonra kaç saat içinde tamamlanmalı.",
+      "assignedTo": "Atanacak kişi",
+      "startDate": "Başlangıç tarihi",
+      "startDateHint": "Tekrar bu günden başlar. Örn: Cuma seçerseniz her Cuma görev gelir."
+    },
+    "completionRate": {
+      "label": "Bu hafta"
+    },
+    "empty": {
+      "myTasks": "Bugün üstünde olan iş yok 🎉",
+      "myTasksDesc": "Harika! Tüm görevlerin tamamlanmış görünüyor.",
+      "household": "Henüz hane görevi yok",
+      "householdDesc": "İlk görevinizi ekleyerek başlayın."
+    },
+    "toast": {
+      "completed": "Görev tamamlandı ✓",
+      "skipped": "Görev atlandı",
+      "claimed": "Görev üstüne alındı",
+      "reassigned": "Atama güncellendi",
+      "created": "Görev oluşturuldu",
+      "deleted": "Görev silindi",
+      "updated": "Görev güncellendi",
+      "instanceDeleted": "Bu seferlik görev silindi"
+    }
+  },
+  "personalTasks": {
+    "badge": "Kişisel görev",
+    "priority": {
+      "low": "Düşük",
+      "med": "Orta",
+      "high": "Yüksek"
+    },
+    "recurrence": {
+      "none": "Tek sefer",
+      "daily": "Günlük",
+      "weekly": "Haftalık",
+      "monthly": "Aylık"
+    },
+    "filter": {
+      "open": "Açık",
+      "completed": "Tamamlanan",
+      "all": "Tüm"
+    },
+    "form": {
+      "title": "Yeni Kişisel Görev",
+      "description": "Sadece sen görebilirsin.",
+      "addButton": "Görev Ekle",
+      "submit": "Oluştur"
+    },
+    "field": {
+      "title": "Başlık",
+      "titlePlaceholder": "Örn: Raporu tamamla",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Opsiyonel detaylar...",
+      "dueAt": "Bitiş tarihi",
+      "priority": "Öncelik",
+      "tags": "Etiketler",
+      "tagPlaceholder": "Etiket ekle...",
+      "recurrence": "Tekrar",
+      "recurrenceHint": "Tamamlandığında otomatik olarak bir sonraki görev oluşturulur."
+    },
+    "empty": {
+      "title": "Kişisel görev yok",
+      "description": "Sadece senin görebileceğin görevler ekle."
+    },
+    "toast": {
+      "created": "Görev oluşturuldu",
+      "completed": "Görev tamamlandı ✓",
+      "deleted": "Görev silindi"
+    }
+  },
+  "inventory": {
+    "title": "Stok Yönetimi",
+    "form": {
+      "title": "Yeni Ürün Ekle",
+      "editTitle": "Ürünü Düzenle",
+      "description": "Stoğunuza yeni bir ürün ekleyin.",
+      "editDescription": "Ürün bilgilerini güncelleyin.",
+      "addButton": "Ürün Ekle"
+    },
+    "field": {
+      "name": "Ürün Adı",
+      "namePlaceholder": "Örn: Süt",
+      "quantity": "Miktar",
+      "unit": "Birim",
+      "category": "Kategori",
+      "lowThreshold": "Düşük stok uyarı",
+      "lowThresholdHint": "Bu sayının altına düşünce uyarı verilir",
+      "note": "Not",
+      "notePlaceholder": "Opsiyonel not..."
+    },
+    "units": {
+      "adet": "Adet",
+      "kg": "kg",
+      "g": "g",
+      "lt": "lt",
+      "ml": "ml",
+      "paket": "Paket",
+      "kutu": "Kutu",
+      "şişe": "Şişe"
+    },
+    "categories": {
+      "mutfak": "Mutfak",
+      "banyo": "Banyo",
+      "temizlik": "Temizlik",
+      "kırtasiye": "Kırtasiye",
+      "genel": "Genel"
+    },
+    "lowStockBanner": "{{count}} ürün düşük stokta",
+    "empty": {
+      "title": "Stokta ürün yok",
+      "description": "İlk ürününüzü ekleyerek stoğunuzu takip etmeye başlayın."
+    },
+    "toast": {
+      "created": "Ürün eklendi",
+      "updated": "Ürün güncellendi",
+      "deleted": "Ürün silindi",
+      "addedToShopping": "Alışveriş listesine eklendi"
+    }
+  },
+  "shopping": {
+    "title": "Alışveriş Listesi",
+    "form": {
+      "title": "Ürün Ekle",
+      "description": "Alışveriş listesine yeni ürün ekleyin.",
+      "addButton": "Listeye Ekle"
+    },
+    "field": {
+      "name": "Ürün Adı",
+      "namePlaceholder": "Örn: Ekmek",
+      "quantity": "Miktar",
+      "unit": "Birim",
+      "category": "Kategori"
+    },
+    "categories": {
+      "gıda": "Gıda",
+      "temizlik": "Temizlik",
+      "kişisel bakım": "Kişisel Bakım",
+      "ev": "Ev",
+      "genel": "Genel"
+    },
+    "frequentItems": "Sık eklediğiniz ürünler",
+    "purchasedCount": "{{count}} ürün alındı",
+    "archiveButton": "Listeyi temizle",
+    "empty": {
+      "title": "Alışveriş listesi boş",
+      "description": "Almak istediğiniz ürünleri ekleyin."
+    },
+    "toast": {
+      "added": "Ürün eklendi",
+      "deleted": "Ürün silindi",
+      "archived": "{{count}} ürün arşivlendi"
+    }
+  },
+  "incidents": {
+    "title": "Şikayetler",
+    "form": {
+      "title": "Yeni Şikayet",
+      "description": "Bir sorun veya şikayet bildirin.",
+      "submit": "Şikayet Oluştur",
+      "uploading": "Yükleniyor..."
+    },
+    "field": {
+      "title": "Başlık",
+      "titlePlaceholder": "Örn: Lavabo tıkalı",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Detayları yazın...",
+      "category": "Kategori",
+      "severity": "Önem Derecesi",
+      "photo": "Fotoğraf",
+      "photoHint": "Fotoğraf çek veya galeriden seç"
+    },
+    "categories": {
+      "mutfak": "Mutfak",
+      "banyo": "Banyo",
+      "salon": "Salon",
+      "yatak": "Yatak Odası",
+      "genel": "Genel",
+      "diger": "Diğer"
+    },
+    "severity": {
+      "info": "Bilgi",
+      "warn": "Uyarı",
+      "crit": "Kritik"
+    },
+    "tab": {
+      "active": "Aktif",
+      "resolved": "Çözülmüş"
+    },
+    "action": {
+      "resolve": "Çözüldü"
+    },
+    "detail": {
+      "reportedBy": "Bildiren",
+      "reportedAt": "Bildirim tarihi",
+      "resolvedBy": "Çözen",
+      "resolvedAt": "Çözüm tarihi"
+    },
+    "photoUnavailable": "Fotoğraf yüklenemedi",
+    "error": {
+      "fileTooLarge": "Dosya çok büyük (maks. 5MB)"
+    },
+    "empty": {
+      "activeTitle": "Aktif şikayet yok",
+      "activeDescription": "Harika! Hiçbir sorun bildirilmemiş.",
+      "resolvedTitle": "Çözülmüş şikayet yok",
+      "resolvedDescription": "Henüz çözülmüş bir şikayet bulunmuyor."
+    },
+    "toast": {
+      "created": "Şikayet oluşturuldu",
+      "resolved": "Şikayet çözüldü ✓"
+    }
+  },
+  "finance": {
+    "title": "Finans",
+    "monthlySummary": "Bu Ayın Özeti",
+    "totalIncome": "Toplam Gelir",
+    "totalFixed": "Sabit Giderler",
+    "remainingBudget": "Kalan Bütçe",
+    "bufferLabel": "Tampon",
+    "allocated": "Harcamalar",
+    "unallocated": "Serbest Bütçe",
+    "categories": "Kategoriler",
+    "recentExpenses": "Son Harcamalar",
+    "personal": "Kişisel",
+    "dayOfMonth": "Her ayın {{day}}. günü",
+    "frequency": {
+      "monthly": "Aylık",
+      "weekly": "Haftalık",
+      "onetime": "Tek seferlik"
+    },
+    "scope": {
+      "shared": "Ortak",
+      "personal": "Kişisel"
+    },
+    "field": {
+      "name": "İsim",
+      "amount": "Tutar (€)",
+      "category": "Kategori",
+      "note": "Not",
+      "notePlaceholder": "Opsiyonel not...",
+      "date": "Tarih",
+      "frequency": "Sıklık",
+      "scope": "Kapsam",
+      "dayOfMonth": "Ayın günü (1-31)",
+      "color": "Renk",
+      "incomePlaceholder": "Örn: Maaş",
+      "fixedPlaceholder": "Örn: Kira",
+      "categoryPlaceholder": "Örn: Market"
+    },
+    "expense": {
+      "title": "Harcama Ekle",
+      "description": "Bir harcama kaydedin.",
+      "submit": "Harcama Ekle",
+      "noCategoriesHint": "Önce ayarlardan kategori ekleyin.",
+      "other": "Diğer"
+    },
+    "settings": {
+      "title": "Finans Ayarları",
+      "description": "Gelir, gider ve buffer ayarlarını yönetin.",
+      "income": "Gelir Kaynakları",
+      "incomeDesc": "Maaş, ek gelir",
+      "fixed": "Sabit Giderler",
+      "fixedDesc": "Kira, faturalar",
+      "buffer": "Tampon Hedefi",
+      "bufferDesc": "Acil durum fonu",
+      "noIncome": "Henüz gelir kaynağı yok.",
+      "noFixed": "Henüz sabit gider yok.",
+      "noCategories": "Henüz kategori yok. Ekle butonuyla harcama grupları oluşturun.",
+      "categoriesDesc": "Harcama grupları"
+    },
+    "category": {
+      "title": "Harcama Kategorileri",
+      "description": "Aylık limit ve renk belirleyin.",
+      "add": "Kategori Ekle",
+      "limitLabel": "Aylık Limit"
+    },
+    "bufferField": {
+      "target": "Hedef Tutar (€)",
+      "current": "Mevcut Tutar (€)"
+    },
+    "empty": {
+      "title": "Henüz harcama yok",
+      "description": "İlk harcamanızı ekleyerek başlayın."
+    },
+    "toast": {
+      "expenseAdded": "Harcama eklendi",
+      "expenseDeleted": "Harcama silindi",
+      "incomeAdded": "Gelir kaynağı eklendi",
+      "incomeUpdated": "Gelir kaynağı güncellendi",
+      "incomeDeleted": "Gelir kaynağı silindi",
+      "fixedAdded": "Sabit gider eklendi",
+      "fixedUpdated": "Sabit gider güncellendi",
+      "fixedDeleted": "Sabit gider silindi",
+      "bufferUpdated": "Tampon güncellendi",
+      "categoryAdded": "Kategori eklendi",
+      "categoryUpdated": "Kategori güncellendi",
+      "categoryDeleted": "Kategori silindi"
+    }
+  },
+  "calories": {
+    "title": "Beslenme",
+    "tab": {
+      "today": "Bugün",
+      "tomorrow": "Yarın Planla"
+    },
+    "macro": {
+      "calories": "Kalori",
+      "protein": "Protein",
+      "carbs": "Karbonhidrat",
+      "fat": "Yağ"
+    },
+    "mealType": {
+      "breakfast": "Kahvaltı",
+      "lunch": "Öğle Yemeği",
+      "dinner": "Akşam Yemeği",
+      "snack": "Atıştırmalık"
+    },
+    "noTarget": "Günlük hedef belirlenmemiş.",
+    "setTarget": "Hedef Belirle",
+    "copyYesterday": "Dünü Kopyala",
+    "form": {
+      "title": "Öğün Ekle",
+      "description": "Planınıza yiyecek ekleyin.",
+      "submit": "Ekle"
+    },
+    "field": {
+      "mealType": "Öğün",
+      "foodName": "Yiyecek Adı",
+      "foodNamePlaceholder": "Örn: Yumurta",
+      "amountG": "Miktar (g)",
+      "amountGPlaceholder": "Opsiyonel"
+    },
+    "target": {
+      "title": "Günlük Hedefler",
+      "description": "Kalori ve makro hedeflerinizi ayarlayın."
+    },
+    "empty": {
+      "title": "Henüz öğün yok",
+      "description": "İlk öğününüzü ekleyerek başlayın."
+    },
+    "toast": {
+      "added": "Öğün eklendi",
+      "deleted": "Öğün silindi",
+      "copied": "Dünün planı kopyalandı",
+      "targetSaved": "Hedefler kaydedildi"
+    }
+  },
+  "calendar": {
+    "title": "Takvim",
+    "weekday": {
+      "mon": "Pzt",
+      "tue": "Sal",
+      "wed": "Çar",
+      "thu": "Per",
+      "fri": "Cum",
+      "sat": "Cmt",
+      "sun": "Paz"
+    },
+    "filter": {
+      "all": "Tümü",
+      "shared": "Müşterek",
+      "personal": "Kişisel"
+    },
+    "allDay": "Tüm gün",
+    "form": {
+      "title": "Yeni Etkinlik",
+      "description": "Takviminize bir etkinlik ekleyin.",
+      "editTitle": "Etkinliği Düzenle",
+      "editDescription": "Etkinlik bilgilerini güncelleyin.",
+      "submit": "Etkinlik Ekle"
+    },
+    "field": {
+      "title": "Başlık",
+      "titlePlaceholder": "Örn: Doktor randevusu",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Opsiyonel detaylar...",
+      "startAt": "Başlangıç",
+      "endAt": "Bitiş",
+      "allDay": "Tüm gün",
+      "location": "Konum",
+      "locationPlaceholder": "Örn: Hastane",
+      "scope": "Kapsam",
+      "color": "Renk"
+    },
+    "empty": {
+      "title": "Bu ayda etkinlik yok",
+      "description": "İlk etkinliğinizi ekleyerek başlayın."
+    },
+    "toast": {
+      "created": "Etkinlik oluşturuldu",
+      "updated": "Etkinlik güncellendi",
+      "deleted": "Etkinlik silindi"
+    }
+  },
+  "body": {
+    "title": "Kilo & Vücut",
+    "latestMeasurement": "Son ölçüm",
+    "trendChart": "Trend",
+    "history": "Geçmiş",
+    "range": {
+      "30": "30 gün",
+      "90": "90 gün",
+      "180": "6 ay",
+      "365": "1 yıl"
+    },
+    "field": {
+      "date": "Tarih",
+      "weight": "Kilo",
+      "bodyFat": "Yağ oranı",
+      "waist": "Bel",
+      "chest": "Göğüs",
+      "arm": "Kol",
+      "hip": "Kalça",
+      "note": "Not",
+      "notePlaceholder": "Opsiyonel not..."
+    },
+    "form": {
+      "title": "Yeni Ölçüm",
+      "description": "Kilo ve vücut ölçümlerinizi kaydedin.",
+      "submit": "Ölçüm Kaydet"
+    },
+    "empty": {
+      "title": "Henüz ölçüm yok",
+      "description": "İlk ölçümünüzü ekleyerek takibe başlayın."
+    },
+    "toast": {
+      "added": "Ölçüm kaydedildi",
+      "deleted": "Ölçüm silindi"
+    }
+  },
+  "smoking": {
+    "title": "Sigara Bırakma",
+    "smokeFree": "Dumansız yaşam",
+    "savings": "Tasarruf",
+    "milestones": "Kilometre Taşları",
+    "ownerOnly": "Bu modül size özel",
+    "ownerOnlyDesc": "Sigara bırakma takibi yalnızca hesap sahibi tarafından görüntülenebilir.",
+    "unit": {
+      "days": "gün",
+      "hours": "saat",
+      "min": "dk",
+      "sec": "sn"
+    },
+    "setup": {
+      "title": "Başlayalım",
+      "description": "Sigara bırakma tarihinizi ve alışkanlıklarınızı girin.",
+      "submit": "Kaydet ve Başla"
+    },
+    "field": {
+      "quitDate": "Bırakma tarihi",
+      "cigsPerDay": "Günde kaç sigara içiyordunuz?",
+      "packPrice": "Paket fiyatı (€)",
+      "packSize": "Paketteki adet"
+    },
+    "milestone": {
+      "24h": "24 Saat",
+      "24hDesc": "CO seviyesi normalleşiyor",
+      "72h": "72 Saat",
+      "72hDesc": "Nikotin vücuttan atılıyor",
+      "7d": "1 Hafta",
+      "7dDesc": "Akciğer temizlenmeye başlıyor",
+      "30d": "1 Ay",
+      "30dDesc": "Dolaşım düzeliyor",
+      "90d": "3 Ay",
+      "90dDesc": "Akciğer kapasitesi artıyor",
+      "180d": "6 Ay",
+      "180dDesc": "Öksürük ve nefes darlığı azalıyor",
+      "365d": "1 Yıl",
+      "365dDesc": "Kalp hastalığı riski yarıya iniyor"
+    },
+    "relapseButton": "Yine içtim",
+    "relapseConfirm": "Emin misiniz? Tekrar dokunun.",
+    "relapseHint": "Sayaç sıfırlanacak ama ilerlemeniz silinmez.",
+    "toast": {
+      "setupSaved": "Ayarlar kaydedildi",
+      "relapseRecorded": "Kayıt edildi. Vazgeçme, tekrar başla!",
+      "milestoneAchieved": "{{milestone}} hedefine ulaştınız! 🎉"
+    }
+  },
+  "goals": {
+    "title": "Hayaller & Hedefler",
+    "status": {
+      "all": "Tümü",
+      "dreaming": "Hayal",
+      "planned": "Planlı",
+      "in_progress": "Aktif",
+      "achieved": "Başarıldı",
+      "paused": "Duraklatıldı"
+    },
+    "milestones": "Adımlar",
+    "milestoneAdd": "Yeni adım ekle...",
+    "achieveButton": "Başardık! ✅",
+    "achieved": "Bu hedef başarıldı! 🏆",
+    "form": {
+      "title": "Yeni Hedef",
+      "description": "Bir hayal veya hedef ekleyin.",
+      "submit": "Hedef Oluştur"
+    },
+    "field": {
+      "title": "Başlık",
+      "titlePlaceholder": "Örn: Avrupa turu",
+      "description": "Açıklama",
+      "descriptionPlaceholder": "Hayalinizi anlatın...",
+      "category": "Kategori",
+      "categoryPlaceholder": "Örn: Seyahat, Sağlık, Kariyer",
+      "status": "Durum",
+      "targetDate": "Hedef tarih",
+      "scope": "Kapsam",
+      "image": "Görsel",
+      "imageHint": "Fotoğraf yükle veya çek"
+    },
+    "empty": {
+      "title": "Henüz hedef yok",
+      "description": "Hayallerinizi ve hedeflerinizi ekleyerek başlayın."
+    },
+    "toast": {
+      "created": "Hedef oluşturuldu",
+      "updated": "Hedef güncellendi",
+      "achieved": "Tebrikler! Hedef başarıldı! 🎉"
+    }
+  }
+}
+

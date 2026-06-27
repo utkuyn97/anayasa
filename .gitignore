@@ -1,0 +1,39 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+.next/
+.vercel
+*.log
+.DS_Store
+Thumbs.db
+coverage/
+*.lcov
+.idea/
+.vscode/
+
+# Secrets (never commit)
+.secrets.local
+infra/.secrets.local
+*.pem
+*.key
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Supabase local
+.supabase/
+supabase/.temp/
+
+# PWA generated
+public/sw.js
+public/workbox-*.js
+public/registerSW.js
+public/manifest.webmanifest
