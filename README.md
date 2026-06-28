@@ -8,6 +8,15 @@ two whitelisted users can ever see the data, enforced at the database layer.
 > founding rule: security (auth + Row-Level Security + PIN) is a hard
 > prerequisite, never deferred to "later."
 
+## Screenshot
+
+<p align="center">
+  <img src="docs/shopping.png" width="42%" alt="Shopping module — realtime-synced shopping list in the mobile PWA" />
+</p>
+
+<p align="center"><em>The shopping module (mobile PWA, demo data) — one of 11. Realtime-synced
+between the two household members, with every table guarded by Row-Level Security.</em></p>
+
 ## What it does
 
 Anayasa is a private app two people use to run a shared home: assign and track
