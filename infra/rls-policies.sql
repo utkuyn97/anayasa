@@ -45,27 +45,23 @@ create policy "allowed_users_read"
   using ( is_household_member() );
 
 -- 1.2 — user_pins
--- A user can see/update ONLY their own PIN row.
--- Insert: creating the initial PIN. Update: changing the PIN or updating failed_attempts
--- (usually via an Edge function with service_role, but the frontend can also write with its own user_id).
+-- Hardened: ALL PIN writes go through the verify-pin Edge Function (service_role,
+-- which bypasses RLS). The frontend gets NO insert/update/delete — this prevents a
+-- client from resetting its own failed_attempts / locked_until to defeat the lockout.
+-- The frontend may only READ its own row, and column grants hide the bcrypt pin_hash.
+drop policy if exists "user_pins_insert_own" on user_pins;
+drop policy if exists "user_pins_update_own" on user_pins;
+
 drop policy if exists "user_pins_select_own" on user_pins;
 create policy "user_pins_select_own"
   on user_pins for select
   to authenticated
   using ( user_id = auth.uid() );
 
-drop policy if exists "user_pins_insert_own" on user_pins;
-create policy "user_pins_insert_own"
-  on user_pins for insert
-  to authenticated
-  with check ( user_id = auth.uid() and is_household_member() );
-
-drop policy if exists "user_pins_update_own" on user_pins;
-create policy "user_pins_update_own"
-  on user_pins for update
-  to authenticated
-  using ( user_id = auth.uid() )
-  with check ( user_id = auth.uid() );
+-- Column-level grant: the client may read everything EXCEPT the pin_hash.
+revoke select on user_pins from authenticated;
+grant select (user_id, failed_attempts, locked_until, remember_device_until, device_fingerprint, updated_at)
+  on user_pins to authenticated;
 
 -- 1.3 — user_settings (per-user settings)
 drop policy if exists "user_settings_own" on user_settings;
